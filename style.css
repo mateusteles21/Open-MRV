@@ -1,0 +1,185 @@
+.header{
+    margin-left: 50px;
+}
+
+.textGreen{
+    background-color: #058b4e;
+    height: 240px;
+    padding: 60px;
+    border-radius: 25px;
+}
+
+.textGreen h3{
+    color: white;
+    margin-left: 50px;
+}
+
+.foto{
+    border-radius: 25px;
+    width: 100%;
+    margin-left: -70px;
+    z-index: -1;
+    position: relative;
+}
+
+.btnVagas{
+    background-color: #058b4e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.imgMRV{
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.inputToggle{
+    border: none; 
+    border-width: 0; 
+    box-shadow: none;
+    border-bottom: solid 2px #058b4e;
+    background-color: transparent;
+}
+
+.inputToggle::placeholder{
+    color: #058b4e;
+    font-weight: bold;
+}
+
+.iconeSeta{
+    color: #058b4e;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.textCollapse{
+    width: 400px;
+}
+
+.imgBorda{
+    margin-left: 100px;
+}
+
+.imgBorda2{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.btnDrop{
+    background-color: transparent;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.listaMuni{
+    height: 300px;
+    overflow: scroll;
+    cursor: pointer;
+}
+
+.btnClose{
+    background-color: #058b4e;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .header{
+        display: none;
+    }
+
+    .row1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .row2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row4{
+        display: flex;
+        flex-direction: column-reverse
+    }
+
+    .foto{
+        margin-left: 0px;
+        width: 350px;
+    }
+
+    .textGreen{
+        width: 350px;
+        height: 60px;
+        border-radius: 25px;
+        z-index: 1;
+        position: relative;
+        margin-top: -40px;
+    }
+
+    .textGreen h3{
+        color: white;
+        margin-left: 0px;
+        font-size: 22px;
+        margin-top: -15px;
+    }
+
+    .imgMRV{
+        margin-left: -20px;
+    }
+
+    .colTexts{
+        margin-left: 100px;
+    }
+
+    .imgBorda{
+        display: none;
+    }
+
+    .imgBorda2{
+        display: none;
+    }
+
+    .textEspaço{
+        font-size: 10px;
+    }
+
+    .Borda{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .container3{
+        margin-left: 100px;
+    }
+
+    .container4{
+        margin-left: 50px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 767px) {
+    .container4{
+        margin-top: -100px;
+    }
+}

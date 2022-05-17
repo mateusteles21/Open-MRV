@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>MRV</title>
+  </head>
+  <body>
+    <div class="header">
+      <img src="./images/Printprint.png" class="d-block" />
+    </div>
+
+    <div class="container mt-5">
+      <div class="row row1">
+        <div class="col-6">
+          <div class="textGreen">
+            <h3>Trabalhe conosco</h3>
+            <h3 class="secondH3">nessa transformação</h3>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <img src="images/Foto.png" class="foto" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row row2">
+        <div class="col-6 colTexts">
+          <h3>Explore novas oportunidades na sua carreira</h3>
+          <p>
+            Quer fazer parte da equipe de uma das melhores empresas para se
+            trabalhar segundo o Great Place To Work 2020? <br /><br />
+
+            Então, junte-se a nós e amplie suas chances de mudar a vida de
+            milhares de pessoas, e a sua também.
+          </p>
+          <button class="btnVagas">Conferir vagas</button>
+        </div>
+
+        <div class="col-6">
+          <img
+            src="images/mrv.png"
+            class="imgMRV"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row row3">
+        <div class="col-4 container3">
+          <h3>Nossos valores</h3>
+          <p>Conheça os valores que nos guiam:</p>
+          <div
+            data-bs-toggle="collapse"
+            href="#collapseExample"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            <input
+              class="inputToggle"
+              type="text"
+              placeholder="Sua Beleza"
+              disabled
+            />
+            <i class="fa fa-angle-down iconeSeta"></i>
+          </div>
+          <div class="collapse textCollapse" id="collapseExample">
+            Sabemos que com a rotina agitada nem sempre sobre tempo para se
+            cuidar. Por isso o programa Sua Beleza traz para dentro da MRV um
+            “salão de beleza”, facilitando cuidados de rotina.
+          </div>
+          <div>
+            <input
+              class="inputToggle"
+              type="text"
+              placeholder="Sua Mente"
+              disabled
+            />
+            <i class="fa fa-angle-down iconeSeta"></i>
+          </div>
+        </div>
+        <div class="col-4 container3">
+          <div>
+            <input
+              class="inputToggle"
+              type="text"
+              placeholder="Encontro"
+              disabled
+            />
+            <i class="fa fa-angle-down iconeSeta"></i>
+          </div>
+          <div>
+            <input
+              class="inputToggle"
+              type="text"
+              placeholder="Seu Estilo"
+              disabled
+            />
+            <i class="fa fa-angle-down iconeSeta"></i>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="images/Grafismo 1.png" class="imgBorda" height="60%" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container container4">
+      <div class="row row4">
+        <div class="col-6 container3">
+          <img
+            src="images/Foto2.png"
+            class="img-fluid"
+            style="border-radius: 15px"
+          />
+        </div>
+        <div class="col-6 textEspaço container3">
+          <h3>Conheça nosso espaço</h3>
+          <p>
+            Temos um ambiente dinâmico, que estimula o aprendizado e convida
+            todos a pensarem no bem comum. Afinal, estamos construindo hoje as
+            bases para um mundo melhor, cheio de inovação, sustentabilidade e
+            integridade. E tudo isso a gente já encontra por aqui.
+            <br /><br /><br /><br />
+
+            <span style="color: black; font-weight: bold">
+              Clique aqui e faça um tour virtual pela nossa sede em BH
+              (MG).</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-6 container4">
+          <h3>Vagas disponíveis</h3>
+          <p>Encontre a oportunidade que mais combina com você:</p>
+          <br />
+          <div class="dropdown">
+            <label>Em qual cidade você quer trabalhar?</label><br />
+            <button
+              class="btnDrop dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Selecionar um tipo
+            </button>
+            <ul
+              class="dropdown-menu listaMuni"
+              aria-labelledby="dropdownMenuButton1"
+              id="lista"
+            ></ul>
+          </div>
+          <br />
+          <div class="dropdown">
+            <label>Qual sua área de atuação?</label><br />
+            <button
+              class="btnDrop dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Selecionar área
+            </button>
+          </div>
+          <br />
+          <div>
+            <label>E que tipo de vaga você procura?</label><br />
+            <input type="text" class="btnDrop" />
+          </div>
+          <br />
+          <button class="btnVagas">Buscar</button>
+        </div>
+        <div class="col-1 Borda">
+          <img src="images/Borda.png" />
+        </div>
+        <div class="col-5">
+          <img src="images/Grafismo 2.png" class="imgBorda2" height="60%" />
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <img src="images/Rodapérodape.png" />
+    </footer>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img
+              src="https://www.mrv.com.br/institucional/build/img/nova-marca/Logo-Gradiente.png"
+              class="img-fluid"
+              width="100px"
+            />
+          </div>
+          <div class="modal-body">
+            <h3>MRV:</h3>
+            <p>
+              A Maior Construtora da América Latina é a principal frente de
+              atuação do MRV&CO. Com o propósito de construir sonhos que
+              transformam o mundo, a MRV abre as portas para que milhares de
+              brasileiros possam conquistar um novo lar, com mais benefícios e
+              facilidades.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="btnClose">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
